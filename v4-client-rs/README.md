@@ -1,6 +1,6 @@
 # Rust client for dYdX v4
 
-The crate implements interaction with the dYdX API.
+The crate implements interaction with the dYdX API. 
 
 The following features are implemented:
 - `NodeClient`, `IndexerClient` + WebSockets, `FaucetClient`, `NobleClient`

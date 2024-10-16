@@ -4,12 +4,10 @@ on:
     types: ['opened', 'edited', 'reopened', 'synchronize']
     paths:
       - 'v4-client-js/**'
+      - 'v4-client-rs/**'
 jobs:
   conventional-pr-title:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./v4-client-js
     steps:
       - name: Checkout
         uses: actions/checkout@v3
