@@ -13,8 +13,10 @@ on:
 
 jobs:
   test:
-
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./v4-client-rs
 
     steps:
       - name: Checkout source code
