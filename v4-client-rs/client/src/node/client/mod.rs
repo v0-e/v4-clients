@@ -511,7 +511,6 @@ impl NodeClient {
             ..Default::default()
         };
 
-        // Move to client/methods.rs
         self.tx
             .simulate(request)
             .await
