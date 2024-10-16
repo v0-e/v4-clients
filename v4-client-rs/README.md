@@ -28,7 +28,6 @@ Workspace consists of a single crate:
 * [cargo deny](https://github.com/EmbarkStudios/cargo-deny)
 * [protoc](https://grpc.io/docs/protoc-installation/) for dev dependencies (`metrics-exporter-tcp`)
 
-
 ### Examples
 
 To run the example, you need to use the `cargo` command as follows:
